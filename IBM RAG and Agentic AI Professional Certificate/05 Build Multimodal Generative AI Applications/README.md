@@ -1,6 +1,55 @@
 # 05 Build Multimodal Generative AI Applications
 
-This README inventories the projects currently present in this repository and summarizes the core models, libraries, tools, and concepts used in each one.
+This README combines a high-level course summary with a technical inventory of the projects currently present in this repository.
+
+## Course Summary
+
+This course provides a practical introduction to multimodal generative AI, with a focus on building applications that process and combine text, speech, images, and video. It covers both the underlying concepts and the hands-on implementation patterns needed to build real-world multimodal systems.
+
+### What the Course Covers
+
+- Multimodal AI systems that process and interpret multiple data types together
+- Text-to-speech (TTS) systems that convert written text into natural-sounding audio
+- Speech-to-text (STT) systems that convert spoken language into written text
+- Multimodal LLM workflows that combine visual and textual information
+- Image captioning and multimodal question-answering systems
+- Video generation concepts, including models such as Sora
+- Multimodal retrieval-augmented generation (MM-RAG)
+- Multimodal chatbots and question-answering systems for text, images, audio, and video
+
+### Skills and Tools Practiced
+
+- Building text and audio applications with Mixtral and `gTTS`
+- Building speech recognition workflows with OpenAI Whisper
+- Exploring text-to-image generation with DALL·E
+- Building image captioning pipelines with Meta Llama vision-capable models
+- Developing advanced multimodal applications with Flask and Gradio
+- Working with supporting frameworks such as LangChain, Hugging Face Transformers, and IBM watsonx
+
+### Hands-On Lab Outcomes
+
+The labs in this course focus on building deployable, application-oriented projects rather than only studying concepts. The repository currently includes work related to:
+
+- a personal storyteller
+- a meeting assistant using speech recognition
+- a DALL·E image generation workflow
+- an image captioning and visual question-answering system
+- a visual-input dietary assistant
+- a fashion-oriented style finder with multimodal retrieval
+
+### Broader Themes
+
+In addition to model and application development, the course also introduces responsible AI deployment concerns, including:
+
+- transparency
+- fairness
+- privacy
+
+Overall, the course combines conceptual coverage with hands-on labs intended to build practical, job-relevant multimodal AI skills.
+
+## Repository Inventory
+
+The sections below summarize the core models, libraries, tools, and concepts used in each project currently present in this repository.
 
 ## Project Inventory
 
