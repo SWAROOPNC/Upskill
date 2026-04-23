@@ -1,0 +1,119 @@
+Prompt engineering is the practice of designing and refining inputs (prompts) to get the best possible outputs from AI models like ChatGPT or other large language models.
+
+---
+
+What it really means
+
+At its core, prompt engineering is about communicating clearly with AI. Since models don’t “think” like humans, the way you phrase a request strongly affects the result.
+
+A simple prompt:
+
+“Explain gravity.”
+
+A better-engineered prompt:
+
+“Explain gravity in simple terms for a 10-year-old, using examples from everyday life.”
+
+Same topic—very different output quality.
+
+---
+
+Key techniques
+
+1. Be specific
+
+Vague prompts lead to vague answers. Clear prompts lead to useful answers.
+
+Example:
+“Write something about business”
+vs
+“Write a 200-word explanation of how startups raise funding in early stages”
+
+---
+
+2. Set context or role
+
+Tell the AI who it should act like.
+
+Examples:
+“Act as a marketing expert…”
+“Explain like a physics professor…”
+“Respond as a beginner-friendly tutor…”
+
+---
+
+3. Define format
+
+You can control structure.
+
+Examples:
+“Give bullet points”
+“Write a table”
+“Step-by-step instructions”
+
+---
+
+4. Provide examples (few-shot prompting)
+
+Show the AI what you want.
+
+Example:
+Input: Apple → Fruit
+Input: Carrot → Vegetable
+Input: Salmon → ?
+
+This helps guide pattern recognition.
+
+---
+
+5. Break complex tasks into steps
+
+Instead of:
+“Write a business plan”
+
+Use:
+
+1. List business ideas
+2. Pick the best one and justify
+3. Create a business plan outline
+
+---
+
+6. Use constraints
+
+Limits improve quality.
+
+Examples:
+“In under 100 words”
+“Use simple language”
+“Avoid technical jargon”
+
+---
+
+Types of prompts
+
+Zero-shot: No examples
+Few-shot: With examples
+Chain-of-thought: Ask AI to explain reasoning step by step
+Instruction-based: Direct commands like “Summarize” or “Translate”
+
+---
+
+Why it matters
+
+Good prompt engineering helps you:
+Get more accurate answers
+Save time with fewer revisions
+Unlock advanced use cases like coding, research, and automation
+
+---
+
+Simple formula
+
+A strong prompt often looks like:
+
+Role + Task + Context + Format + Constraints
+
+Example:
+
+“Act as a career coach. Give me 5 resume tips for a recent graduate applying to tech jobs. Use bullet points and keep it under 150 words.”
